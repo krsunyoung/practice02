@@ -12,11 +12,11 @@ public class Prob3 {
 		
 		char[] a = s.toCharArray(); 
 		
-	for ( int i = 1; i<=a.length ; i++){
+	for ( int i = 1 ; i<=a.length ; i++){
 
 		for ( int j = 0; j<i ; j++){
 			
-			System.out.print( a );
+			System.out.print( a[j] );
 		}
 		System.out.println("");
 		
