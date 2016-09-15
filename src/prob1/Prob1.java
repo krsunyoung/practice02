@@ -9,7 +9,7 @@ public class Prob1 {
 
 		/* 여기에 코드를 작성합니다. */
 		
-		for (int i : data) {
+		for (int  i = 0 ; i<data.length ; i ++) {
 			if ( i % 3 == 0){
 
 			count ++;
